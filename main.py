@@ -6,7 +6,7 @@ def run():
         if data ==  'quit':
             quit
         else:
-            execute(n)
+            execute(data)
     
 if __name__ == "__main__":
     import sys
