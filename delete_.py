@@ -1,0 +1,2 @@
+def deleteObject(li, index):
+    

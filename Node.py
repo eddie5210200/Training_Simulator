@@ -12,9 +12,15 @@ def populateNode(numChilds):
     child = n
     for i in range(numChilds - 1):
         child.addChild(random.randint(0, limit))
-        child = p.child
-    printNode(n)
+        child = child.child
+    #printNode(n)
     return n
+
+def lenNode(head, num):
+    if(head is None):
+        print(num)
+        return
+    lenNode(head.child, num+1)
     
 def printNode(head):
     if(head is None):

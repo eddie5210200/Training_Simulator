@@ -1,7 +1,8 @@
 INSTRUCTIONS_ARGS = {
-    'add array' : 2
-    'add node' : 1
-    '' : ''
+    'addArray' : {'args', 2} 
+    'addNode' : {'args', 1}
+    'addTree' : {'args', 3}
+    'deleteObject' : {'args', 2}
     '' : ''
     '' : ''
     '' : ''
